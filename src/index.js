@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req,res)=> {
-   res.send('mostrando data')
+   res.send('mostrando data desde node')
 })
 
 app.get('/crear', (req,res)=>{

@@ -8,3 +8,7 @@ app.get('/', (req,res)=> {
 app.get('/crear', (req,res)=>{
    res.send('creando data')
 })
+
+app.listen(3000,()=>{
+   console.log('server in port',3000)
+})

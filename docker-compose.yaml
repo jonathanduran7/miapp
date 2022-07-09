@@ -1,10 +1,10 @@
 version: "3.7"
-
 services:
-  app:
+  miapp:
+    container_name: name_contenedor #nombre para ponerle al contenedor
     build:
       context: .
-    image: stoic_keldysh
+    image: nomb_imagen #nombre que le queremos poner a la imagen
     ports:
       - 3000:3000
     volumes:
